@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "298587272024",
+    "project_id": "akify-57e3b",
+    "storage_bucket": "akify-57e3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298587272024:android:dab645f20496329cd72b2d",
+        "android_client_info": {
+          "package_name": "com.example.akify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjkCaR79cCVwi1WeNnj6QXnNT-Koq7QlM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

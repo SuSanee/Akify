@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+<!--    <color name="black">#FF000000</color>-->
+<!--    <color name="white">#FFFFFFFF</color>-->
+    <color name="black">#FFFFFFFF</color>
+    <color name="white">#FF000000</color>
     <color name="grey">#808080</color>
     <color name="greyDark">#A2A2A2</color>
+
+    <color name="color1">#77E4C8</color>
+    <color name="color2">#E6B9A6</color>
+    <color name="color3">#059212</color>
+    <color name="color4">#AD88C6</color>
+    <color name="color5">#006989</color>
+
 </resources>

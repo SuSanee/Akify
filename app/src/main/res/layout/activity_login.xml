@@ -5,140 +5,143 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
-    tools:context=".LoginActivity">
-
-    <LinearLayout
-        android:id="@+id/TextBox"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="72dp"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/WelTextView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Welcome back!"
-            android:layout_marginLeft="20dp"
-            android:textColor="@color/white"
-            android:textSize="34sp"
-            android:textStyle="bold"
-            android:layout_marginTop="32dp"/>
-
-        <TextView
-            android:id="@+id/TextView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Login"
-            android:layout_marginLeft="20dp"
-            android:textColor="@color/white"
-            android:textSize="34sp"
-            android:textStyle="bold"
-            android:layout_marginTop="5dp"/>
-
-    </LinearLayout>
+    tools:context=".LoginActivity"
+    android:background="@drawable/loginbackground"
+    >
 
 
-    <LinearLayout
-        android:layout_marginTop="10dp"
-        android:id="@+id/formLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_below="@id/TextBox"
-        android:layout_marginHorizontal="18dp">
+            <LinearLayout
+                android:id="@+id/TextBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="112dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/WelTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="Welcome back!"
+                    android:textColor="@color/white"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Login"
+                    android:textColor="@color/white"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
 
 
-        <TextView
-            android:id="@+id/EmailTextView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:textSize="19sp"
-            android:text="Email"
-            android:layout_marginTop="18dp" />
+            <LinearLayout
+                android:id="@+id/formLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TextBox"
+                android:layout_marginHorizontal="18dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
 
 
-        <EditText
-            android:id="@+id/editTextEmailAddress"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            android:background="@drawable/rounded_corner"
-            android:ems="10"
-            android:hint="Email"
-            android:inputType="textEmailAddress"
-            android:paddingVertical="12dp"
-            android:textColorHint="@color/grey"
-            android:paddingLeft="10dp"/>
-
-        <TextView
-            android:id="@+id/passwordTextView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:textSize="19sp"
-            android:text="Password"
-            android:layout_marginTop="18dp" />
+                <TextView
+                    android:id="@+id/idTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:text="Username"
+                    android:textColor="@color/white"
+                    android:textSize="19sp" />
 
 
-        <EditText
-            android:id="@+id/editTextPassword"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Password"
-            android:background="@drawable/rounded_corner"
-            android:ems="10"
-            android:inputType="textPassword"
-            android:layout_marginTop="12dp"
-            android:paddingVertical="12dp"
-            android:textColorHint="@color/grey"
-            android:paddingLeft="10dp"/>
+                <EditText
+                    android:id="@+id/editTextid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/rounded_corner"
+                    android:ems="10"
+                    android:hint="Username"
+                    android:paddingVertical="12dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/grey"
+                    android:textColorHint="@color/grey" />
 
-        <Button
-            android:id="@+id/loginBtn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
-            android:backgroundTint="#4059CB"
-            android:text="Login"
-            android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/passwordTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:text="Password"
+                    android:textColor="@color/white"
+                    android:textSize="19sp" />
 
-        <ProgressBar
-            android:id="@+id/progressBar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
-            android:visibility="gone"/>
 
-    </LinearLayout>
+                <EditText
+                    android:id="@+id/editTextPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/rounded_corner"
+                    android:ems="10"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:paddingVertical="12dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/grey"
+                    android:textColorHint="@color/grey" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="8dp"
-        android:gravity="center"
-        android:layout_marginBottom="20dp"
-        android:layout_alignParentBottom="true">
+                <Button
+                    android:id="@+id/loginBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:backgroundTint="@color/white"
+                    android:text="Login"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Don't have an account?"
-        android:textSize="16dp"
-        android:layout_marginRight="10dp"/>
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:visibility="gone" />
 
-    <TextView
-        android:id="@+id/signInBtnText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="16dp"
-        android:text="Sign In"
-        android:textColor="@color/greyDark"
-        android:textStyle="bold"/>
+            </LinearLayout>
 
-    </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="40dp"
+                android:gravity="center"
+                android:orientation="horizontal">
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="Don't have an account?"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/signInBtnText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sign In"
+                    android:textColor="@color/greyDark"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+
+            </LinearLayout>
 </RelativeLayout>

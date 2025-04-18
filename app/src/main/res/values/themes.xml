@@ -6,4 +6,8 @@
     </style>
 
     <style name="Theme.Akify" parent="Base.Theme.Akify" />
+    
+    <style name="CardView." parent="CardView">
+        <item name="android:foreground">@drawable/loginbackground</item>
+    </style>
 </resources>
